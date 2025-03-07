@@ -52,6 +52,7 @@ int main() {
         cout << "Credit Score is invalid. Please enter a valid Credit Score." << endl;
         return 1;
     }
+    cout << "Your APR from your credit is " << APR * 100 << " %" << endl;
 
     double monthlyRate = APR / 12;
 
